@@ -8,7 +8,7 @@ excerpt: "Typora로 작성해보는 Markdown입니다."
 date: 2021-08-12
 lastmod: 2021-08-12
 
-author_profile: false # 왼쪽부분 프로필을 띄울건지
+author_profile: true
 
 categories: 
   - post
