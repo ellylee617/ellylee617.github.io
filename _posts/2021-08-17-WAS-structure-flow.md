@@ -64,7 +64,7 @@ tags:
 
    의 이유로 분리함.
 
-   <br>
+   <br><br>
 
 3. **3Tier**
 
@@ -72,7 +72,7 @@ tags:
    * BT(Business Tier)
    * DT(Data Tier)
 
-   <br>
+   <br><br>
 
 4. **DMZ**
 
@@ -82,7 +82,7 @@ tags:
 
    외부 사용자가 기업의 정보를 담고 있는 내부 서버에 직접 접근 하는 것을 방지하며, 외부 사용자가 DMZ 호스트 보안을 뚫고 들어오더라도 기업 내부의 정보는 유출되지 않음.
 
-   <br>
+   <br><br>
 
 5. **On-premise와 Cloud 서비스**
 
@@ -93,9 +93,9 @@ tags:
 
      - 하지만 보안적인 이유로 보안이 필요한 서비스와 데이터는 온프레미스 환경에서, 덜 중요한 것은 퍼블릭 클라우드 환경을 사용하는 하이브리드 IT 인프라가 대세를 이루고 있음.
 
-     - 장비가 고정되어 있으므로 부하시 튜닝 또는 Scale-Up![image](https://user-images.githubusercontent.com/78994909/129817202-41082fc5-0e3c-47b8-b632-f4867dd2a65a.png)
+     - 장비가 고정되어 있으므로 부하시 튜닝 또는 Scale-Up<br>![image](https://user-images.githubusercontent.com/78994909/129817202-41082fc5-0e3c-47b8-b632-f4867dd2a65a.png)
 
-       <br>
+       <br><br>
 
    - **Cloud 서비스** - **Iaas(이아스)** 
    
@@ -104,17 +104,17 @@ tags:
      서버, 네트워크, 스위치등의 하드웨어 인프라 자원을 직접 구축하지않고, 클라우드에 있는 인프라 자원을 사용하도록 해주는 서비스.
      <br>
    
-     사용자들은 더 이상 인프라 구축에 힘 들일 필요 없이 서비스나 SW 개발에 집중할 수 있게 됨.
+     사용자들은 더 이상 인프라 구축에 힘 들일 필요 없이 서비스나 SW 개발에 집중할 수 있게 됨.<br>
 
      - 아마존 웹서비스(AWS), MS 애저(Azure) 등
 
      - 업체가 클수록 가격은 저렴해짐. ∴AWS가 상대적으로 저렴하다 
 
-     - 부하시 Scale-Out, 서버 여유시 Scale-In ⇒ 유연한 증감(클라우드의 최장점)![image](https://user-images.githubusercontent.com/78994909/129821341-d8478515-95f8-4ced-8537-6bfc38bd5c8c.png)
+     - 부하시 Scale-Out, 서버 여유시 Scale-In ⇒ 유연한 증감(클라우드의 최장점)<br>![image](https://user-images.githubusercontent.com/78994909/129821341-d8478515-95f8-4ced-8537-6bfc38bd5c8c.png)<br>
 
      - Scale-Out, Scale-In시 연결하는 스위치(L4)만 알면 됨.
      
-       <br>
+       <br><br>
    
 6. **ETC**
 
