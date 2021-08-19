@@ -2,7 +2,7 @@
 layout: single
 
 title: "[Web] Web Server와 WAS, Cloud"
-excerpt: "210813"
+excerpt: "210813 교육 정리"
 
 date: 2021-08-17
 lastmod: 2021-08-17
