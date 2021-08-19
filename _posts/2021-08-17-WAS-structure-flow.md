@@ -21,6 +21,8 @@ tags:
    - Docker
    - Kubernetes
 
+toc: true
+toc_sticky: true
 
 ---
 
@@ -134,22 +136,22 @@ tags:
        <br><br>
      
 - **Kubernetes(K8s)**
-   
+  
   - 컨테이너화된 서비스를 관리하기 위한 오픈소스 플랫폼
      - 분산 시스템을 탄력적으로 실행하기 위한 프레임 워크를 제공
      - 애플리케이션의 확장과 장애 조치를 처리하고, 배포 패턴 등을 제공.
      - 간단하게 말하면 도커를 관리하는 도구. Scale-out도 도움 주는 툴.
        <br><br>
-   
+  
 - **Session Clustering**
-   
+  
   - 세션은 각각의 서버에서 만들어짐 → 서버 장애시  다른 서버로 take over하는데 그럼 기존의 세션 정보는 잃어버리게 됨
-   
+  
   - All-to-all Session Replication
        모든 세션 저장소에 세션 정보 복제<br>
        ∵ 소규모일 땐 효율이 좋지만 Scale-Out 시 무리
-   
+  
     ⇒ 클라우드 환경에선 세션 스토리지를 분리하여 별도의 세션 저장소를 사용함
-   
+  
     <br><br><br><br><br>
 
