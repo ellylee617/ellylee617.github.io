@@ -2,27 +2,27 @@
 
 layout: single
 
-title: "[docker] docker 기초" #제목
-excerpt: "유튜브 생활코딩 - docker 입문수업 정리 + α" #발췌
+title: "[docker] docker 기초"
+excerpt: "유튜브 생활코딩 - docker 입문수업 정리 + α"
 
 date: 2021-08-25
 lastmod: 2021-08-25
 
-author_profile: true 
+author_profile: true
 
 categories: 
-  - docker
+  - Docker
 
 tags: 
-
-- docker
-- image
-- container
+   - docker
+   - image
+   - container
 
 toc: true
-toc_label: "docker 기초 # toc 이름 설정
-toc_icon: "docker" # 아이콘 설정
-toc_sticky: true # 마우스 스크롤과 함께 내려갈 것인지 설정
+toc_sticky: true
+toc_label: "docker 기초"
+toc_icon: "docker"
+
 ---
 
 ## Docker
