@@ -48,7 +48,7 @@ expression을 잘못 작성하여 오류가 발생한 경우다.
 <br><br>
 "execution(\*com.project.first.\*Impl.*(..))"
 
-⇒ "execution(***** com.project.first.\*Impl.\*(..))"
+⇒ "execution(--*-- com.project.first.\*Impl.\*(..))"
 
 <br>
 
