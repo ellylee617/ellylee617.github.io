@@ -2,6 +2,7 @@
 layout: single
 
 title: "[Spring] 오류 - exception is java.lang.IllegalArgumentException: Pointcut is not well-formed"
+excerpt: "AOP Pointcut 표현식 오류"
 
 date: 2021-08-31
 lastmod: 2021-08-31
@@ -19,13 +20,15 @@ tags:
 
 <br>
 
-### AOP 설정 관련 오류
+### AOP Pointcut 표현식 오류
 
 <br><br>
 
 
 ```java
-Error creating bean with name 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 38
+Error creating bean with name 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0': Initialization of bean failed; 
+nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: 
+expecting 'name pattern' at character position 38
 execution(*com.project.first..*Impl.*(..)))
                                       ^
 ```
@@ -38,8 +41,8 @@ root-context.xml 파일에서 transaction을 위한 aop pointcut 설정을 하�
 
 ```java
 <aop:config proxy-target-class="true">
-		<aop:pointcut id="txPointcut" expression="execution(*com.project.first..*Impl.*(..)))" />
-		<aop:advisor id="transactionAdvisor" pointcut-ref="txPointcut" advice-ref="txAdvice" />
+	<aop:pointcut id="txPointcut" expression="execution(*com.project.first..*Impl.*(..)))" />
+	<aop:advisor id="transactionAdvisor" pointcut-ref="txPointcut" advice-ref="txAdvice" />
 </aop:config>
 ```
 

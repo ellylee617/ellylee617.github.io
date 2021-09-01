@@ -3,6 +3,7 @@
 layout: single
 
 title: "[Spring] 오류 - org.apache.ibatis.builder.BuilderException: Mapper's namespace cannot be empty"
+excerpt: "Mybatis 연동 설정 오류"
 
 date: 2021-08-31 
 lastmod: 2021-08-31 
@@ -25,7 +26,9 @@ tags:
 <br><br>
 
 ```java
-Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Mapper's namespace cannot be empty
+Error parsing SQL Mapper Configuration. 
+Cause: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. 
+Cause: org.apache.ibatis.builder.BuilderException: Mapper's namespace cannot be empty
 ```
 
 <br><br>
@@ -34,9 +37,9 @@ root-context.xml 파일에서 Mybatis 연동을 위한 설정을 하였는데
 
 ```java
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-		<property name="dataSource" ref="dataSource" />
-		<property name="configLocation" value="classpath:mybatis-config.xml" />
-		<property name="mapperLocations" value="classpath:mappers/**/*Maper.xml"/>
+	<property name="dataSource" ref="dataSource" />
+	<property name="configLocation" value="classpath:mybatis-config.xml" />
+	<property name="mapperLocations" value="classpath:mappers/**/*Maper.xml"/>
 </bean>
 ```
 
