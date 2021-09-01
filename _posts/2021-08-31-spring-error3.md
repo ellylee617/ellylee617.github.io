@@ -37,7 +37,9 @@ Cause: org.apache.ibatis.builder.BuilderException: Mapper's namespace cannot be 
 
 <br>
 
-내 경우엔 프로젝트 초기 작업으로 필요한 파일들을 미리 만들었는데 mapper.xml도 여러개 만들었다.
+내 경우엔 프로젝트 초기 작업으로 필요한 파일들을 미리 만들었는데
+
+그 중엔 당연히 mapper.xml도 여러개 있었다.
 
 그리고 야무지게 mybatis-config.xml에 만든 모든 mapper.xml들을 다 등록했다.
 
