@@ -20,6 +20,7 @@ tags:
 
 ### AOP 설정 관련 오류
 <br>
+
 ```java
 Error creating bean with name 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 38
 execution(*com.project.first..*Impl.*(..)))
