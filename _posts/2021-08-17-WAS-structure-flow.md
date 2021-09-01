@@ -10,7 +10,7 @@ lastmod: 2021-08-17
 author_profile: true
 
 categories: 
-  - Web
+  - Server
 
 tags: 
    - Web Server
