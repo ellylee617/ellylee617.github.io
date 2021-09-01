@@ -42,7 +42,6 @@ root-context.xml 파일에서 transaction을 위한 aop pointcut 설정을 하�
 </aop:config>
 ```
 
-<br>
 expression을 잘못 작성하여 오류가 발생한 경우다.
 
 
