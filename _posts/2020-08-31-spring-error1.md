@@ -32,7 +32,7 @@ execution(*com.project.first..*Impl.*(..)))
 
 <br><br>
 root-context.xml 파일에서 transaction을 위한 aop pointcut 설정을 하였는데
-<br>
+<br><br>
 
 ```java
 <aop:config proxy-target-class="true">
@@ -41,6 +41,7 @@ root-context.xml 파일에서 transaction을 위한 aop pointcut 설정을 하�
 </aop:config>
 ```
 
+<br><br>
 expression을 잘못 작성하여 오류가 발생한 경우다.
 
 
@@ -56,6 +57,7 @@ expression을 잘못 작성하여 오류가 발생한 경우다.
 
 <br><br>
 >"execution([리턴타입] [타겟메소드지정(argument타입)])"의 형태이므로
+>
 >
 >[리턴타입] [메소드] 사이에 **띄어쓰기** 꼭!
 
