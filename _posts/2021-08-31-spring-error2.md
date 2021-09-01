@@ -2,7 +2,7 @@
 
 layout: single
 
-title: "[Spring\] 오류 - org.apache.ibatis.builder.BuilderException: Mapper's namespace cannot be empty"
+title: "[Spring] 오류 - org.apache.ibatis.builder.BuilderException: Mapper's namespace cannot be empty"
 
 date: 2021-08-31 
 lastmod: 2021-08-31 
