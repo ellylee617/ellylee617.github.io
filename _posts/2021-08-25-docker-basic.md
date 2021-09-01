@@ -2,27 +2,26 @@
 
 layout: single
 
-title: "[docker] docker 기초" #제목
-excerpt: "유튜브 생활코딩 - docker 입문수업 정리 + α" #발췌
+title: "[docker] docker 기초"
+excerpt: "유튜브 생활코딩 - docker 입문수업 정리 + α"
 
 date: 2021-08-25
 lastmod: 2021-08-25
 
-author_profile: true 
+author_profile: true
 
 categories: 
-  - docker
+  - Docker
 
 tags: 
-
-- docker
-- image
-- container
+   - docker
+   - image
+   - container
 
 toc: true
-toc_label: "docker 기초 # toc 이름 설정
-toc_icon: "docker" # 아이콘 설정
-toc_sticky: true # 마우스 스크롤과 함께 내려갈 것인지 설정
+toc_sticky: true
+toc_label: "docker 기초"
+toc_icon: "docker"
 
 ---
 
@@ -233,9 +232,9 @@ Window10 기준 - 명령 프롬프트(cmd) 또는 Windows PowerShell 이용
 - container는 가볍기에 자잘한 파일들은 가지고 있지 않을 수 있다. 해당 컨테이너 패키지를 업데이트 하려면 apt update 라는 명령어로 추가 다운을 한다.
 - 컨테이너는 쉽게 만들고 쉽게 없애는 용도이므로 쉽게 날라갈 수 있다.
   만약 중요한 컨테이너라면 이미지로 만들어 저장한다.
-- 
+
 
 <br><br>
-
+<br><br>
 <br>
 
