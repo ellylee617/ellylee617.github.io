@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ellylee617.github.io/sitemap.xml
+Disallow: /private/
+Sitemap: http://ellylee617.github.io/sitemap.xml
